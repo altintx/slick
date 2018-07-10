@@ -1,11 +1,11 @@
 {
   "name": "slick-carousel",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "the last carousel you'll ever need",
   "main": "slick/slick.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenwheeler/slick.git"
+    "url": "https://github.com/altintx/slick.git"
   },
   "keywords": [
     "carousel",
