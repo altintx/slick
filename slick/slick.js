@@ -22,7 +22,9 @@
     } else if (typeof exports !== 'undefined') {
         module.exports = factory(require('jquery'));
     } else {
-        factory(jQuery);
+        if ("jQuery" in window) {
+            factory(jQuery);
+        }
     }
 
 }(function($) {
